@@ -1,0 +1,111 @@
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.mainContainer {
+  .header {
+    .headerBump {
+      .branding {
+        >img{
+          positon: absolute;
+        }
+        .slogan {
+          margin-left: 1.5em;
+
+        }
+      }
+      .counters {
+            display: block;
+          > h4 {
+            width: 3em;
+            margin: 0;
+            padding: 0;
+            display: inline;
+          }
+          .dataCounter {
+            display: inline-block;
+            width: 3em;
+            margin: auto;
+            padding: 1px;
+
+
+          }
+        }
+
+      #topRightBtn {
+        background-color: darkgrey;
+        margin: auto;
+        width: 100%;
+        display: block;
+        border-radius: 0;
+        &a {
+          display: inline-block;
+        }
+      }
+
+    }
+    .navAndSearch {
+
+        background-image: none;
+        #search {
+          max-width: 35%;
+          border: 0;
+          border-radius: 0;
+          padding: 0 0 0 0;
+          .btn {
+            border-radius: 0;
+
+          }
+        }
+        .dropdown {
+        }
+
+    }
+  }
+  .bodyContainer {
+    .catagoriesSidebar {
+      margin-top: 1%;
+      margin-right: 1%;
+      max-width: 15%;
+      border: 1px solid #dddddd;
+      .sidebar-item{
+        border-bottom: 1px solid #dddddd;
+        text-decoration: none;
+
+      }
+      .sidebar-item:last-child{
+        border-bottom: none;
+      }
+    }
+
+    .bodyPanel {
+      border: 1px solid #dddddd;
+      margin-top: 1%;
+
+
+      .bodyItem {
+        display: block;
+        margin: auto;
+        padding: auto;
+        /*These display terribly on smaller screens.
+          Ideally, they stack as many horizontally
+          as possible.
+        */
+        .bodyItemDate {
+
+          margin-right: 1%;
+        }
+        .bodyItemMeta {
+          display: inline;
+          height: 50px;
+          width: 30%;
+          margin: auto;
+          padding: 0;
+          background-color: #dddddd;
+          /* Can't get these to properly display*/
+        }
+      }
+    }
+  }
+}
+
